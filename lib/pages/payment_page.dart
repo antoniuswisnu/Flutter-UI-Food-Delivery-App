@@ -23,7 +23,7 @@ class payment_dart extends StatelessWidget {
                 
                 Padding(
                   padding:
-                      const EdgeInsets.only(top: 10.0, right: 60.0, left: 70.0),
+                      const EdgeInsets.only(top: 10.0, right: 60.0, left: 60.0),
                   child: Row(
                     children: [
                       
