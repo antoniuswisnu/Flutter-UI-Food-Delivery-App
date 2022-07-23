@@ -16,20 +16,27 @@ class payment_dart extends StatelessWidget {
           child:  SingleChildScrollView(
             child: Column(
               children: [
+                
                 Center(
                     child: Image.asset('assets/images/icon.png',
                         width: 267, height: 180)),
+                
                 Padding(
                   padding:
                       const EdgeInsets.only(top: 10.0, right: 60.0, left: 70.0),
                   child: Row(
                     children: [
+                      
+                      
                       Text(
                         'Your Order',
                         style: titleTextStyle,
                       ),
                       
-                      Text(' Food', style: titleProTextStyle)
+                      // Revisi menggunakan Flexible
+                      Flexible(
+                        child:  Text(' Food', style: titleProTextStyle),
+                      ),
                     ],
                   ),
                 ),
